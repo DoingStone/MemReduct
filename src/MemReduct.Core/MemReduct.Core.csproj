@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <RootNamespace>MemReduct.Core</RootNamespace>
+    <AssemblyName>MemReduct.Core</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <Version>1.0.0</Version>
+    <Product>MemReduct</Product>
+    <Description>Windows memory management engine: working set trimming, system file cache trim, standby/modified page list purge.</Description>
+  </PropertyGroup>
+
+</Project>

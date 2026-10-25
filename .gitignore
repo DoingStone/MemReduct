@@ -1,0 +1,64 @@
+# ---- Build output ----
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# ---- Published / packaged binaries ----
+dist/
+artifacts/
+publish/
+*.pdb
+*.exe
+*.dll
+*.nupkg
+*.snupkg
+
+# ---- Visual Studio / Rider / VS Code ----
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/
+
+# ---- Local scratch workspace (issue tracker drafts) ----
+.scratch/
+
+# ---- Test and coverage output ----
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# ---- NuGet restore artifacts ----
+*.nupkg.metadata
+project.lock.json
+project.fragment.lock.json
+packages/
+.nuget/
+
+# ---- MSBuild ----
+*.binlog
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# ---- OS noise ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---- Local environment / secrets ----
+.env
+.env.*
+*.local.json
+appsettings.local.json
+*.pfx
+*.snk
+*.key
+*.pem
+secrets.json
