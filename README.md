@@ -395,3 +395,10 @@ Trimming working sets and purging the standby list are safe, supported operation
 Windows reclaims those pages on demand. Both carry a real cost, though: the next
 access to a discarded page has to come from disk. That is why the tool shows you
 what it released instead of a single flattering number, and why `--dry-run` exists.
+
+---
+
+## License
+
+Released under the MIT License. See [LICENSE](LICENSE).
+
