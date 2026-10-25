@@ -26,6 +26,9 @@ publish/
 # ---- Local scratch workspace (issue tracker drafts) ----
 .scratch/
 
+# ---- WorkBuddy workspace data ----
+.workbuddy/
+
 # ---- Test and coverage output ----
 [Tt]est[Rr]esult*/
 *.trx
